@@ -1,0 +1,15 @@
+<html><head><title>ME123 Competition - Gargantuan Golf - Team 5 - Matlab Code Description</title>
+<body bgcolor="#000000" text="#FFFFFF">
+<Center><H1>Matlab Code Description</H1></center>
+<blockquote>
+<P>The MATLAB program can be broken into three main phases: before impact, impact, and after impact.
+<P><B>Before impact</b> the initial conditions are set up. Then the input variables are prompted for. Then the correct units are developed. Then the physics of the paddle is calculated.
+<P><B>Impact</b> in the program involved transferring the physical properties of the paddle into the physical properties of the ball. The collision is calculated using the predetermined coefficient of restitution.
+<P><B>After impact</b> the flight of the ball is modeled. This model uses a stepped approach of calculating the effects of gravity and wind resistance on the ball. The result of each cycle determines the initial condition of the next step.
+<P>The input and the output of the program are the key to interfacing the code with the user, they are as follows.
+<P>The <B>input</b> to the program is the initial impact position and angle. The initial impact position was determined by a Cartesian coordinate system in feet that has it.s origin on the ground directly below the pivot of the arm, with the y-axis pointing straight up and the x-axis on the floor in the general direction of the ball's motion. The initial impact angle is inputted in degrees and represents the angle by the arm between the positive y direction and the time of impact.
+<p>The <b>output</b> of the program is a table of values that is designed for quick reference. The table has three columns and rows for each .1 degree increment from 0 degrees of release to the maximum release angle that still impacts the ball. The first column is the distance the target should be placed away in inches. The second column is the distance the target should be placed away in feet. The third column is the release angle. So when referencing a desired distance, the distance need only be looked up (to the best approximation) on the first two columns then the proper release angle determined by the value of the third column in the same row. The degree increment was determined to be &quot;close enough&quot; because the output would generally be accurate to more than an inch for each degree increment while the end degree increment could only be inputted into the experiment within a degree or two. A table was chosen out of the simplicity and the ability for quick access to multiple distance points for each release angle.
+</blockquote><BR>
+<center><font size="-1">This page was authored by Benjamin Frevert</font></center><BR>
+<Center><a href="me123.html">Home</a> | <a href="desc.html">Project Description</a> | <a href="team.html">All about our team</a> | <a href="matlab.html">Matlab simulation</a> | <a href="wm.html">Working Model simulation</a></center>
+</bodY></html>

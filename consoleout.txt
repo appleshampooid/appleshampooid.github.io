@@ -1,0 +1,40 @@
+Failed to read: session.screen0.slit.maxOver
+Setting default value
+Failed to read: session.screen0.slit.alpha
+Setting default value
+Failed to read: session.screen0.slit.onhead
+Setting default value
+Failed to read: session.screen0.slit.layer
+Setting default value
+Failed to read: session.screen0.toolbar.maxOver
+Setting default value
+Failed to read: session.screen0.toolbar.visible
+Setting default value
+Failed to read: session.screen0.toolbar.alpha
+Setting default value
+Failed to read: session.screen0.toolbar.layer
+Setting default value
+Failed to read: session.screen0.toolbar.onhead
+Setting default value
+Failed to read: session.screen0.toolbar.height
+Setting default value
+Failed to read: session.screen0.toolbar.tools
+Setting default value
+Failed to read: session.screen0.iconbar.mode
+Setting default value
+Failed to read: session.screen0.iconbar.deiconifyMode
+Setting default value
+Failed to read: session.screen0.iconbar.wheelMode
+Setting default value
+Failed to read: session.screen0.iconbar.alignment
+Setting default value
+Failed to read: session.screen0.iconbar.iconWidth
+Setting default value
+Failed to read: session.screen0.iconbar.iconTextPadding
+Setting default value
+Failed to read: session.screen0.iconbar.usePixmap
+Setting default value
+X connection to :0.0 broken (explicit kill or server shutdown).
+xinit:  connection to X server lost.
+
+waiting for X server to shut down .
